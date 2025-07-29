@@ -1,0 +1,25 @@
+/* nav styling (default layout)*/
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: var(--spacing-medium) 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: var(--spacing-medium);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.nav-links a {
+    margin: var(--spacing-small);
+    font-size: var(--size-nav);
+}

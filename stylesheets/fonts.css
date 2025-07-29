@@ -1,0 +1,13 @@
+@import url('https://use.typekit.net/zbt3znm.css');
+
+:root {
+    --font-heading: "gill-sans-nova-condensed", sans-serif;
+    --font-body: "minion-pro-condensed-display", serif;
+
+    --size-heading: 3em;
+    --size-nav: 1.5em;
+    --size-body: 1.2em;
+
+    --weight-heading: 900;
+    --weight-body: 400;
+}
