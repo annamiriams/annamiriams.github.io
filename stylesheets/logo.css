@@ -1,8 +1,15 @@
-#logo {
+#nav-logo {
     font-family: var(--font-heading);
     font-size: var(--size-heading);
     font-weight: 900;
     font-style: normal;
     color: #f25d23;
     text-decoration: none;
+}
+
+#footer-logo {
+    font-family: var(--font-heading);
+    font-size: var(--size-heading);
+    font-style: normal;
+    color: #f25d23;
 }

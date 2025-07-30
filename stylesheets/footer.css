@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eaeaea;
+    font-size: var(--size-body);
+    padding: var(--spacing-large);
+}
+
+.footer-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.footer p {
+    font-size: var(--size-body);
+    margin-bottom: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: var(--spacing-large);
+    margin: 0;
+    padding: 0;
+}
+
+.social-links a {
+    color: #023047;
+}
+
+.social-links a:hover {
+    color: #f25d23;
+}

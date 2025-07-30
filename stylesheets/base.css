@@ -49,18 +49,6 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Hero Section */
-.hero {
-    text-align: center;
-    padding: 6rem 1rem;
-}
-
-.subtitle {
-    font-size: 1.25rem;
-    color: #555;
-    margin-bottom: 2rem;
-}
-
 /* Projects */
 .project-grid {
     display: grid;
@@ -95,30 +83,6 @@ p {
 .contact {
     text-align: center;
 }
-
-/* Social Links */
-.social-links {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1rem;
-}
-
-.social-links li a {
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.social-links li a:hover {
-    color: #f25d23;
-}
-
-/* Footer */
-/* .footer {
-    text-align: center;
-    padding: 2rem 0;
-} */
 
 /* Simple Fade-In Animation */
 section {
