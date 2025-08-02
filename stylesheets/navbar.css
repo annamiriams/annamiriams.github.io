@@ -3,7 +3,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    padding: var(--spacing-medium) 0;
+    padding: var(--spacing-medium);
 }
 
 nav a {

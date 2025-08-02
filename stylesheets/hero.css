@@ -27,4 +27,5 @@
 .subtitle {
     font-size: var(--size-heading);
     font-family: var(--font-body);
+    color: black;
 }
