@@ -16,6 +16,7 @@
 #footer-logo {
     font-family: var(--font-heading);
     font-size: var(--size-heading);
-    font-style: normal;
+    /* font-style: normal; */
     color: #f25d23;
+    line-height: 1;
 }

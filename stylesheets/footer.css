@@ -3,7 +3,7 @@
     background-color: #f9f9f9;
     border-top: 1px solid #eaeaea;
     font-size: var(--size-body);
-    padding: var(--spacing-large);
+    padding: var(--spacing-medium) var(--spacing-large);
 }
 
 .footer-content {
@@ -12,6 +12,12 @@
     justify-content: space-between;
     align-items: center;
     text-align: left;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer p {
