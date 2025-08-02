@@ -1,22 +1,19 @@
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 80vh;
     padding: var(--spacing-large);
     background-color: #f9f9f9;
     gap: var(--spacing-large);
-    overflow: hidden;
-}
-
-.hero-text {
-    flex: 1;
-    position: relative;
-    z-index: 2;
 }
 
 .hero-text {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-large);
 }
 
 .hero-text h1 {
@@ -28,12 +25,6 @@
 }
 
 .subtitle {
-    font-size: var(--size-nav);
+    font-size: var(--size-heading);
+    font-family: var(--font-body);
 }
-
-/* .hero-image img {
-    width: 60%;
-    height: auto;
-    border-radius: 8px;
-    margin-left: -60px;
-} */

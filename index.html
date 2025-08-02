@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <script defer src="./scripts/include.js"></script>
+    <script defer src="./scripts/fade.js"></script>
     <title>Anna Steckel</title>
 </head>
 
@@ -14,64 +15,58 @@
     <include src="components/navbar.html"></include>
 
     <!-- Hero Section -->
-    <header class="hero">
+    <header class="fade-in-section hero">
         <div class="hero-text">
             <h1>ANNA STECKEL</h1>
-            <p class="subtitle">Full-stack Software Developer</p>
+            <h2 class="subtitle">Full-stack Software Developer</h2>
             <a href="./pages/projects.html" class="button-primary">View My Work</a>
-        </div>
-        <div class="hero-image">
-            <!-- <img src="/images/headshot-1.jpg" alt="Anna Steckel headshot"> -->
         </div>
     </header>
 
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <section id="projects" class="fade-in-section projects">
         <h2>Projects</h2>
         <div class="project-grid">
             <article class="project-card">
                 <img src="/images/PL.jpg" alt="Screenshot of Project 1">
                 <h3>Phoebe Light</h3>
-                <p>Phoebe Light is a journal of poetry, poetics, criticism, and adjacent ventures. It takes its name from the great Alice Notley’s poem “Phoebe Light.” Phoebe Light aims to combine the aesthetics of online poetry journals with the functionality of a submission manager.</p>
-                <div>
-                    <p><i class="fa-brands fa-python fa-xl" style="color: #023047;"></i></p>
+                <p>Phoebe Light is a journal of poetry, poetics, criticism, and adjacent ventures. It takes its name from the great Alice Notley’s poem “Phoebe Light.” Built with Python, Django, and PostgreSQL, Phoebe Light aims to combine the aesthetics of online poetry journals with the functionality of a submission manager.</p>
+                <div class="tech-stack">
+                    <p><i class="tech-icon fa-brands fa-python fa-xl"></i></p>
                     <img style='width: 8%;' src="/images/django-icon-svgrepo-com.svg" alt="">
-                    <p><i class="fa-brands fa-html5 fa-xl" style="color: #023047;"></i></p>
+                    <img style='width: 8%;' src="/images/postgresql-svgrepo-com.svg" alt="">
+                    <p><i class="tech-icon fab fa-js-square fa-xl"></i></p>
+                    <p><i class="tech-icon fa-brands fa-html5 fa-xl"></i></p>
+                    <p><i class="tech-icon fab fa-css3-alt fa-xl"></i></p>
                 </div>
-                <a href="https://phoebelight-275a2da8eb1d.herokuapp.com/" target="_blank">View Project</a>
+                <a href="https://phoebelight-275a2da8eb1d.herokuapp.com/" target="_blank">View Live Site</a>
             </article>
             <article class="project-card">
-                <img src="project2-thumbnail.jpg" alt="Screenshot of Project 2">
-                <h3>Project Two</h3>
-                <p>Another short description, highlighting a different skill.</p>
-                <a href="#" target="_blank">View Project </a>
+                <img src="/images/CT.jpg" alt="">
+                <h3>CareTrack</h3>
+                <p>Navigate the process of admitting a new client to care through this full CRUD application built using JavaScript, MongoDB, Express.js, and Node.js. Progress through the admission process by confirming insurance, scheduling an intake, and admitting a new client to care.</p>
+                <div class="tech-stack">
+                    <p><i class="tech-icon fab fa-js-square fa-xl"></i></p>
+                    <img style='width: 8%;' src="/images/mongodb-svgrepo-com.svg" alt="">
+                    <img style='width: 8%;' src="/images/express-svgrepo-com.svg" alt="">
+                    <p><i class="tech-icon fab fa-node fa-xl"></i></p>
+                    <p><i class="tech-icon fa-brands fa-html5 fa-xl"></i></p>
+                    <p><i class="tech-icon fab fa-css3-alt fa-xl"></i></p>
+                </div>
+                <a href="https://caretrackapp-62ecf33f7339.herokuapp.com/" target="_blank">View Live Site</a>
             </article>
             <!-- Add more projects as needed -->
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="fade-in-section about">
         <h2>About Me</h2>
         <p></p>
         <p>When I'm not staring at a computer screen, you'll find me birding, reading, or testing out a new recipe.</p>
     </section>
-
-    <!-- Contact Section
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Interested in working together or just want to say hi?</p>
-        <p><a href="mailto:you@example.com">you@example.com</a></p>
-        <ul class="social-links">
-            <li><a href="https://github.com/annamiriams" target="_blank">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/annasteckel" target="_blank">LinkedIn</a></li>
-        </ul>
-    </section> -->
-
-    <!-- Footer -->
-    <!-- <footer class="footer">
-    </footer> -->
+    
     <include src="components/footer.html"></include>
 
     <script src="scripts/include.js"></script>
