@@ -40,7 +40,7 @@ nav a {
         overflow: hidden;
         max-height: 0;
         opacity: 0;
-        transition: max-height 0.3s ease, opacity 0.3s ease;
+        transition: max-height 0.6s ease, opacity 0.6s ease;
         position: absolute;
         top: 70px;
         left: 0;
