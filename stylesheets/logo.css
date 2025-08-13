@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+.logo-container img {
+    width: 60px;
+    height: auto;
+    border-radius: 8px;
+}
+
 #nav-logo {
     font-family: var(--font-heading);
     font-size: var(--size-logo);

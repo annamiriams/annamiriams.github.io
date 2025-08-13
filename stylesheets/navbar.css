@@ -3,7 +3,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    padding: var(--spacing-medium);
+    padding: var(--spacing-small) var(--spacing-medium);
 }
 
 nav a {
@@ -18,8 +18,12 @@ nav a {
 }
 
 .nav-links a {
-    margin: var(--spacing-small);
+    margin: var(--spacing-medium);
     font-size: var(--size-nav);
+}
+
+.nav-links a:hover {
+    color: #f25d23;
 }
 
 .links {
