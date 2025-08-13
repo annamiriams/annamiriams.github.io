@@ -1,15 +1,13 @@
-.about-content {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.about-grid {
+    display: grid;
     gap: var(--spacing-large);
-    text-align: justify;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding-bottom: var(--spacing-large);
 }
 
-.about-content div {
-    flex: 1;
-    min-width: 250px;
+.about-card {
+    padding: var(--spacing-medium);
+    text-align: justify;
 }
 
 .about img {
@@ -19,22 +17,16 @@
     border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-    .about-content {
+@media (max-width: 768px) {    
+    .about-grid {
+        display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
-
-    .about-content div {
-        width: 80%;
-        text-align: center;
-    }
-
-    .about img {
-        max-width: 60%;
-    }
-
-    .about p {
-        text-align: left;
+    
+    .about-card img {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
     }
 }
