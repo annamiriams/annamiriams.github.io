@@ -5,5 +5,14 @@
     border: none;
     border-radius: 100px;
     cursor: pointer;
-    font-size: var(--size-body);
+    font-family: var(--font-heading);
+    font-size: var(--size-button);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--spacing-large);
 }

@@ -32,7 +32,7 @@ h3 {
 h1, 
 h2 {
     font-size: var(--size-heading);
-    margin-bottom: var(--spacing-large);
+    margin-bottom: var(--spacing-extralarge);
     text-align: center;
     color: #023047;
 }
@@ -46,7 +46,7 @@ h3 {
 #projects h1,
 #contact h1,
 #resume h1 {
-    margin-bottom: 2em;
+    margin-bottom: var(--spacing-extralarge);
 }
 
 p {

@@ -25,7 +25,26 @@
 }
 
 .subtitle {
-    font-size: var(--size-heading);
+    font-size: 3rem;
     font-family: var(--font-body);
     color: black;
+    margin-bottom: var(--spacing-large);
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 8em;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .hero-text {
+        padding: var(--spacing-medium);
+    }
+
+    h2 {
+        font-size: 4em;
+    }
 }

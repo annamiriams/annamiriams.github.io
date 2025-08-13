@@ -4,9 +4,12 @@
     --font-heading: "gill-sans-nova-condensed", sans-serif;
     --font-body: "minion-pro-condensed-display", serif;
 
-    --size-heading: 3em;
-    --size-subheading: 1.5em;
+    --size-heading: 4em;
+    --size-subheading: 1.8em;
     --size-body: 1.2em;
+    --size-logo: 3em;
+    --size-nav: 1.5em;
+    --size-button: 1.8em;
 
     --weight-heading: 900;
     --weight-body: 400;

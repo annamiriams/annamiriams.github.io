@@ -18,3 +18,23 @@
     height: auto;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-content div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .about img {
+        max-width: 60%;
+    }
+
+    .about p {
+        text-align: left;
+    }
+}
