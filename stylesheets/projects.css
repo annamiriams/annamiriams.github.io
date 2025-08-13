@@ -76,4 +76,8 @@
     .project-card {
         padding: var(--spacing-medium);
     }
+
+    .button-container p {
+        margin: 0 var(--spacing-large);
+    }   
 }
