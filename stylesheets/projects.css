@@ -67,3 +67,13 @@
     margin-bottom: var(--spacing-large);
     font-size: var(--size-subheading);
 }
+
+@media (max-width: 768px) {
+    .project-grid {
+        padding: var(--spacing-large);
+    }
+
+    .project-card {
+        padding: var(--spacing-medium);
+    }
+}
