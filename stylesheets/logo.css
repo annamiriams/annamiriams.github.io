@@ -17,12 +17,12 @@
     font-style: normal;
     color: #f25d23;
     text-decoration: none;
+    margin: 0;
 }
 
 #footer-logo {
     font-family: var(--font-heading);
     font-size: var(--size-heading);
-    /* font-style: normal; */
     color: #f25d23;
     line-height: 1;
 }

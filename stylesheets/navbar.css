@@ -72,4 +72,8 @@ nav a {
         justify-content: space-between;
         position: relative;
     }
+
+    .nav-links a {
+        margin: 0;
+    }
 }

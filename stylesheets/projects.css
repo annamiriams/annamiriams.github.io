@@ -78,6 +78,6 @@
     }
 
     .button-container p {
-        margin: 0 var(--spacing-large);
+        margin: var(--spacing-large);
     }   
 }
