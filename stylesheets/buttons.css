@@ -2,12 +2,13 @@
     background-color: var(--color-link);
     color: white;
     padding: var(--spacing-small) var(--spacing-large);
+    margin-top: var(--spacing-medium);
     border: none;
     border-radius: 100px;
     cursor: pointer;
     font-family: var(--font-heading);
     font-size: var(--size-button);
-        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button-container {
