@@ -39,7 +39,7 @@
 }
 
 .project-card a:hover {
-    color: #f25d23;
+    color: var(--color-green);
     text-decoration: underline;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .tech-icon {
-    color: #023047;
+    color: var(--color-blue);
 }
 
 .project-links {
@@ -70,7 +70,7 @@
 
 @media (max-width: 768px) {
     .project-grid {
-        padding: var(--spacing-large);
+        padding: var(--spacing-medium) var(--spacing-large);
     }
 
     .project-card {

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+    min-height: 90vh;
     padding: var(--spacing-large);
     background-color: #f9f9f9;
     gap: var(--spacing-large);
@@ -19,25 +19,23 @@
 .hero-text h1 {
     font-size: 12rem;
     line-height: 1;
-    font-family: var(--font-heading, sans-serif);
-    color: #023047;
+    color: var(--color-blue);
     margin-bottom: var(--spacing-medium);
 }
 
 .subtitle {
     font-size: 3rem;
-    font-family: var(--font-body);
     color: black;
     margin-bottom: var(--spacing-large);
 }
 
 @media (max-width: 768px) {
     .hero-text h1 {
-        font-size: 8em;
+        font-size: 7.5em;
     }
 
     .subtitle {
-        font-size: 2rem;
+        font-size: 2em;
     }
 
     .hero-text {

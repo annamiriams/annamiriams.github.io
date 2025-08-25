@@ -23,7 +23,7 @@ nav a {
 }
 
 .nav-links a:hover {
-    color: #f25d23;
+    color: var(--color-green);
 }
 
 .links {
@@ -40,6 +40,10 @@ nav a {
 }
 
 @media (max-width: 768px) {
+    nav {
+        padding: var(--spacing-medium) var(--spacing-medium);    
+    }
+
     .links {
         overflow: hidden;
         max-height: 0;
@@ -66,6 +70,7 @@ nav a {
 
     .hamburger {
         display: block;
+        padding-right: var(--spacing-small);
     }
 
     .nav-links {

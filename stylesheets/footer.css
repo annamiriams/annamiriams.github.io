@@ -25,6 +25,10 @@
     margin-bottom: 0;
 }
 
+.footer a {
+    font-size: var(--size-footer);
+}
+
 .social-links {
     list-style: none;
     padding: var(--spacing-large);
@@ -33,11 +37,11 @@
 }
 
 .social-links a {
-    color: #023047;
+    color: var(--color-blue);
 }
 
 .social-links a:hover {
-    color: #f25d23;
+    color: var(--color-green);
     text-decoration: underline;
 }
 
