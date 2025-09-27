@@ -4,6 +4,11 @@ nav {
     align-items: center;
     text-align: center;
     padding: var(--spacing-small) var(--spacing-medium);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav a {
@@ -41,7 +46,7 @@ nav a {
 
 @media (max-width: 768px) {
     nav {
-        padding: var(--spacing-medium) var(--spacing-medium);    
+        padding: var(--spacing-medium) var(--spacing-medium);
     }
 
     .links {
