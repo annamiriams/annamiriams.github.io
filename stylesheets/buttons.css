@@ -1,6 +1,5 @@
 .button-primary {
     background-color: var(--color-blue);
-    
     color: white;
     padding: var(--spacing-small) var(--spacing-large);
     margin-top: var(--spacing-medium);

@@ -18,10 +18,42 @@
 
     <section id="contact" class="fade-in-section contact">
         <h1>Contact</h1>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
+
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Enter your full name" required>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="example@example.com" required>
+
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="555-555-5555">
+
+            <label>Message</label>
+            <textarea rows="4" name="message" placeholder="Interested in collaborating on a project or have an idea you'd like to discuss? Tell me about it here!" ></textarea>
+            
+            <div class="fade-in-section button-container">
+                <button type="submit" class="button-primary">SUBMIT</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Old google form below and corresponding iframe styling commented out in contact.css -->
+    <!-- <section id="contact" class="fade-in-section contact">
+        <h1>Contact</h1>
+        <div style="width:100%;height:500px;" data-fillout-id="kvY2fKryf5us" data-fillout-embed-type="standard"
+            data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
+        <script src="https://server.fillout.com/embed/v1/"></script>
+    </section> -->
+
+    <!-- <section id="contact" class="fade-in-section contact">
+        <h1>Contact</h1>
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSeV0KvjfrWJVV6dccEPyr7IAgAj8DtU91kdn94NWJrXUlwTPg/viewform?embedded=true"
             width="640" height="823">Loading…</iframe>
-    </section>
+    </section> -->
 
     <include src="../components/footer.html"></include>
 

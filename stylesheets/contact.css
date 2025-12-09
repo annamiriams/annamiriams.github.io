@@ -1,5 +1,45 @@
-.contact iframe {
+/* .contact iframe {
     width: 100%;
     border: none;
     padding: 0 var(--spacing-medium);
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+    width: 60%;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: var(--size-subheading);
+}
+
+form input, 
+form textarea {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+form input {
+    height: 40px;
+    font-size: var(--size-body);
+    padding: 0 var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+}
+
+form textarea {
+    font-size: var(--size-body);
+    padding: var(--spacing-small);
+}
+
+form placeholder {
+    color: lightgray;
+}
+
+label:has(+ input:required):after,
+label:has(+ textarea:required):after {
+    content: ' *';
+    color: darkred;
 }
